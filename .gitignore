@@ -1,0 +1,15 @@
+# Ignore generated IDEA files
+.idea/
+*.iml
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+
+.gradle
+
+# Ignore OSX preview files
+.DS_Store
+
+# Ignore generated build files
+/build
+
