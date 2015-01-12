@@ -1,4 +1,4 @@
-# Count It!
+# Count It! [![Build Status](https://travis-ci.org/kaeawc/count-it.svg?branch=master)](https://travis-ci.org/kaeawc/count-it)
 
 Simple Android app to help you keep count of something. Whatever that is, is up to the user.
 
