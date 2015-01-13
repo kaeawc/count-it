@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
         // Get the user's count
         SharedPreferences prefs = getSharedPreferences("user_count", MODE_PRIVATE);
 
-        // Only attempt editting if able to lock shared preferences.
+        // Only attempt editing if able to lock shared preferences.
         if (prefs == null)
             return false;
 
