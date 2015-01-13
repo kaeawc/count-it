@@ -20,6 +20,7 @@ android {
     sourceSets {
         instrumentTest.setRoot('src/androidTest')
     }
+
 }
 
 dependencies {
