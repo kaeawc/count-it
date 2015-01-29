@@ -13,4 +13,4 @@ android:
     - sys-img-armeabi-v7a-android-21
 script:
   - ./gradlew clean build lintDebug --stacktrace
-  - ./gradlew connectedAndroidTest -i
+  - ./gradlew connectedAndroidTest -i --stacktrace
