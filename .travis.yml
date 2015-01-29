@@ -12,4 +12,4 @@ android:
     - extra
     - sys-img-armeabi-v7a-android-21
 script:
-  - ./gradlew clean build lintLocalDebug --stacktrace
+  - ./gradlew clean build lintDebug --stacktrace
