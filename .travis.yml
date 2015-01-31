@@ -17,11 +17,6 @@ before_install:
 # Making sure gradlew has executable permissions
     - chmod +x gradlew
 
-# Test against both OpenJDK7 and OracleJDK7
-jdk:
-  - openjdk7
-  - oraclejdk7
-
 android:
   components:
 # We are using the latest revision of Android SDK Tools
