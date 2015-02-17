@@ -10,8 +10,8 @@ import org.robolectric.annotation.Config;
 import java.io.File;
 import java.util.Properties;
 
-public class CustomRobolectricRunner extends RobolectricTestRunner {
-    public CustomRobolectricRunner(Class<?> testClass)
+public class Robo extends RobolectricTestRunner {
+    public Robo(Class<?> testClass)
             throws InitializationError {
         super(testClass);
     }

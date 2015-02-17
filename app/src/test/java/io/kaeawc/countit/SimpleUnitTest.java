@@ -9,6 +9,6 @@ public class SimpleUnitTest {
     public void checkJUnitWork() {
         // failing test gives much better feedback
         // to show that all works correctly ;)
-        assertThat(true, is(false));
+        assertThat(1 + 1, is(2));
     }
 }
