@@ -31,4 +31,4 @@ android:
   licenses:
      - 'android-sdk-license-.+'
 
-script: ./gradlew testDebug --info
+script: ./gradlew testDebug --debug
